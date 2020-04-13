@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+        .word { font-size: 2em; }
+   wbr { display: inline-block; }
+    </style>
+    <title>Lab 1</title>
+</head>
+<body style="background: #B8B8B8">
+    <main>
+        <nav> <a href="index1.html">Очень важная ссылка</a> 
+       <a href="index1.html">Очень важная ссылка  номер 2</a> </nav>
+
+    <article style= "width: 100%"> 
+        <h1>Article</h1>
+        <p>Text text text text text text text text text text text text text text text </p>
+    </article>
+
+    <aside style="width: 50%">
+        <h1>Aside</h1>
+        <p>text text text text text text text text text text text text text text text </p>
+    </aside>
+
+    <section>
+        <h1>Section</h1>
+        <p>text text text text text text text text text text text text text text </p>
+    </section>
+
+    <br><br>
+     <p><time>2000-8-07</time> is the day i was born.</p>
+
+    <label for="dow">Download progress:</label>
+    <meter id="dow" value="8" min="0" max="15">20%</meter>
+
+    <br><br>
+    <form>
+        <input list="numbers">
+            <datalist id="numbers">
+                <option value="one">
+                <option value="two">
+                <option value="three">
+                <option value="four">
+            </datalist>
+        <input type="submit">
+    </form>
+    <br><br>
+
+    <audio controls>
+        <source src="corona.mp3" type="audio/mp3">
+    </audio>
+
+    <p dir="lrt" > this is arabic <bdi>ة رمجة  </bdi> language </p>
+    <p dir="ltr">This arabic word <bdo>ARABIC_PLACEHOLDER</bdo> is automatically displayed right-to-left.</p>
+
+    <template>
+        <h4>Template</h4>
+        <p>text text text text text text text text text text text text text text text text text </p>    
+    </template>
+
+    <canvas id="canv"></canvas> 
+    <script>
+        var c = document.getElementById("canv");
+        var ctx = c.getContext("2d");
+        ctx.fillRect(25,25,100,100);
+    ctx.clearRect(45,45,60,60);
+    ctx.strokeRect(50,50,50,50);
+    </script>
+    <br><br>
+
+    <embed type="video/webm"
+       src="vv.mp4"
+       width="250"
+       height="200">
+
+       <br><br>
+
+       <video 
+       controls="controls"
+       width="250"
+       height="200">
+       <source src = "cat.mp4">
+       </video>
+       <br><br>
+
+       <h1>Самое длинное слово из химии</h1>
+  <p class="word">метоксихлор<wbr>диэтиламино<wbr>метил<wbr>бутил<wbr>амино<wbr>акридин</p>
+
+    <details>
+        <summary>Summary</summary>
+        <p>text text text text text text text text text text text text text text text text text </p>
+    </details> 
+    <figure>
+        <img src="11.jpg" alt="Forest" style="width:70%">
+        <figcaption>Forest</figcaption>
+    </figure>
+    <p> Highlighted word =  <mark>highlight</mark></p>
+
+    
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)"> 0
+        <input type="range" id="a" value="0">
+        100 + <input type="number" id="b" value="50">=<output name="x" for="a b"></output>
+    </form>
+    <br><br>
+    <progress value="100" max="200"> </progress>
+
+    <br><br>
+
+    <dialog open>
+        text text text text text text text text text text text text text text text text text 
+    </dialog>
+    <br> <br><br> <br><br> <br>
+     <br> <br>
+     <footer>
+            <font color="black">Done by:  Me  
+                    <br> See you
+             </font>
+    </footer>
+         <br> <br>
+     </main>
+
+</body>
+</html>
