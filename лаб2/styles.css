@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+
+
+.header {
+  padding: 0px 0;
+  width: 100%;
+  height: 64px;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+
+
+.header_button {
+  border: 0;
+  height: 36px;
+  width: 150px;
+  margin-left: auto;
+  background: #f69321;
+  cursor: help;
+  color: #f5f5f5;
+}
+
+.header_button:hover {
+  background: #ee850d;
+}
+
+
+.forest {
+  background-image: url('11.jpg');
+  height: calc(100vh - 64px);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forest_pic {
+  background: rgba(0, 0, 0, .2);
+  padding: 20px 40px;
+  width: 300px;
+  color: #f5f5f5;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 30px;
+}
+
+
+.book {
+  height: 80vh;
+}
+
+.bookw {
+  width: 75%;
+}
+
+.bookl{
+  float: left;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.bookl h2 {
+  margin: 10px 0;
+}
+
+.bookl p {
+  margin: 30px 0;
+}
+
+.arrow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.arrow > :last-child {
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.book_pic {
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-image: url('22.jpg');
+  background-position: center;
+  background-size: cover;
+} 
+
+
+.email{
+  height: 100vh;
+  background-image: url('44.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #f5f5f5;
+  padding: 3vh 5vw;
+} 
+
+.email h2 {
+  font-size: 2rem;
+}
+
+.email h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  
+}
+
+.email .input {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.input_c input {
+  border: 1px solid #fff;
+  background: none;
+  height: 30px;
+  width: 220px;
+  padding: 10px;
+  color: #f5f5f5;
+  margin-right: 20px;
+}
+
+.input_c button {
+  height: 30px;
+  border: 1px solid #f69321;
+  width: 100px;
+  background: #f69321;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.input_c button:hover {
+  background-color: #ee850d;
+  border-color: #ee850d;
+}
+
+
+.section4 {
+  padding: 5vh 5vw;
+  height: 50vh;
+}
+
+.section4 h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.section4 h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section4  p {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px;
+} 
+
+.icons p {
+  padding: 30px;
+}
+
+.icon {
+  text-align: center;
+}
+
+
+.footer {
+  height: 70vh;
+  padding: 3vh 5vw;
+  background-image: url('55.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.footer h4 {
+  width: 100%;
+  font-weight: 100;
+  font-size: 1.3rem;
+  padding-bottom: 100px;
+}
+
+.footer label {
+  display: block;
+  padding-bottom: 2px;
+}
+
+.footer input {
+  margin-bottom: 10px;
+}
+
+.footer input, footer textarea {
+  width: 400px;
+  border: 1px solid #3d3d3d;
+  padding: 10px;
+}
+
+.footer textarea {
+  height: 150px;
+}
+
+.footer .send {
+  border: 0;
+  margin-top: 10px;
+  height: 36px;
+  width: 150px;
+  background: #f69321;
+  cursor: pointer;
+  display: block;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+.footer .send:hover {
+  background: #ee850d;
+}
