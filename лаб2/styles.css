@@ -80,16 +80,6 @@
   margin: 30px 0;
 }
 
-.arrow {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.arrow > :last-child {
-  margin-right: 15px;
-  margin-left: 10px;
-}
-
 .book_pic {
   width: 50%;
   height: 100%;
